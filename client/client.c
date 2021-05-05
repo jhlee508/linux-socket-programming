@@ -7,7 +7,7 @@
 #include <sys/socket.h>
 #include <time.h> // 시간 측정을 위한 라이브러리
 
-#define BUFFER_SIZE 1000000 // 버퍼 크기 100KB
+#define BUFFER_SIZE 1460 // 버퍼 크기 설정
 
 // 에러 핸들링 함수 선언
 void error_handling(char* error_message);

@@ -6,7 +6,7 @@
 #include <arpa/inet.h> // htnol, htons, INADDR_ANY, sockaddr_in 등 사용
 #include <sys/socket.h> // 소켓 라이브러리
 
-#define BUFFER_SIZE 1000000 // 버퍼 크기 100KB
+#define BUFFER_SIZE 1460 // 버퍼 크기 설정
 
 // 에러 핸들링 함수 선언
 void error_handling(char* error_message);
