@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
 	}
 
 	// [fopen 함수] 전송할 파일 열기
-	fp = fopen("./video.mp4", "rb"); // 옵션: read binary
+	fp = fopen("./video.avi", "rb"); // 옵션: read binary
 
 	// [socket 함수] 소켓 생성 
 	serv_sock = socket(PF_INET, SOCK_STREAM, 0); // ipv4, TCP, protocol
