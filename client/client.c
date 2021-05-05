@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
 	}
 
 	// [fopen 함수] 전송받고 저장할 파일 열기
-	fp = fopen("./video.avi", "wb"); // 옵션: write binary
+	fp = fopen("./video.mp4", "wb"); // 옵션: write binary
 
 	// [socket 함수] 소켓 생성
 	sock = socket(PF_INET, SOCK_STREAM, 0); // ipv4, TCP, protocol
